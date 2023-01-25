@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./quote-style.css"
+import "./style.css"
 
 
 export default function Quote(props) {
@@ -8,7 +8,7 @@ export default function Quote(props) {
     const [quote, setQuot] = useState();
 
     const getQuotes = () => {
-        fetch("/api/get-quote?id=3").then((response) => {
+        fetch("/api/get-quote?id=1").then((response) => {
 
             response.json().then((resp) => {
                 setQuot(resp)

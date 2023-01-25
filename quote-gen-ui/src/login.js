@@ -1,15 +1,23 @@
 import React from "react";
-import "./quote-style.css"
+import "./login.css"
 
 export default function Login() {
 
 
     return (
-    <>
+        <>
 
-        <div classname="login-container"> <h3>Login Body</h3> </div>
+            <div className="login-container">
 
-    </>
+                <div className="text">
+
+                    <h1>THis is login</h1>
+                    <h3>THis is submit</h3>
+
+                </div>
+            </div>
+
+        </>
     )
 
 }

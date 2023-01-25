@@ -1,13 +1,19 @@
 import Login from "./login";
-import Quote from "./quote";
+import './style.css'
+import Quote from "./quote"
 
-export default function Quoteparent(props) {
+export default function Quoteparent() {
 
     return (
 
         <>
-            
-            <Quote />
+            <div className="float-mid">
+
+                {/* <Login /> */}
+                <Quote />
+
+            </div>
+
         </>
 
     )
